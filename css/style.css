@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+/* task 3 */
+#gallery {
+  background-color: #cecece;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#gallery img {
+  width: 360px;
+}
+
+/* task 4 */
+#counter {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+/* task 6 */
+#validation {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#text {
+  padding-bottom: 50px;
+}
+
+#boxes {
+  padding-bottom: 30px;
+}
